@@ -1,0 +1,50 @@
+header, footer {
+    background-color: aquamarine;
+}
+
+header {
+    text-align: center;
+}
+
+#yellow {
+    background-color: yellow;
+}
+
+#green {
+    background-color: green;
+}
+
+#red {
+    background-color: red;
+}
+
+#orange {
+    background-color: orange;
+}
+
+#blue {
+    background-color: blue;
+}
+
+#purple {
+    background-color: purple;
+}
+
+#gray {
+    background-color: gray;
+}
+
+#black {
+    background-color: black;
+    color:white;
+}
+
+.textcell {
+    width: 200px;
+    text-align: center;
+}
+
+.image {
+    width:200px;
+    height: 200px;
+}

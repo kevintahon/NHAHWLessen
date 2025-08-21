@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>NHA Taak Les 16 - Formulieren</title>
+        <meta name="description" content="Taak Les 16">
+        <meta name="author" content="Kevin Tahon">
+    </head>
+    <body>
+        <h1>Tandartsafspraak</h1>
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce consequat imperdiet fringilla. Duis vestibulum mauris at mi porta, lobortis accumsan turpis feugiat.<br>
+            Duis at aliquam magna. Mauris nisl libero, lobortis sit amet nisi sed, scelerisque consequat velit. Fusce in mi et arcu dictum pellentesque.<br> 
+            Curabitur ut congue sem, at pharetra dui. Quisque ultricies aliquam lacus, efficitur bibendum nisl commodo eu. Quisque vitae sodales ante, sit amet euismod nisi.<br>
+            Etiam non ex imperdiet, ultricies nunc a, luctus erat. Phasellus elementum tempor lorem at maximus. <br>
+            Phasellus eu leo posuere, suscipit est sit amet, mattis sapien. Nulla consectetur, dui placerat congue facilisis, lacus ex dapibus arcu, <br>
+            sed egestas lorem massa id ex. Ut eu tortor ac arcu pretium suscipit vitae a lectus. Sed urna odio, efficitur eu scelerisque vitae, condimentum ac enim. <br>
+            Suspendisse a pellentesque dui, vehicula scelerisque nibh. Quisque malesuada malesuada molestie. Curabitur condimentum aliquet orci, id condimentum est tristique id.<br> 
+            Vestibulum rutrum commodo velit ac tempus. Proin dapibus lectus eget libero luctus, quis sollicitudin dolor sollicitudin. Morbi orci urna, <br>
+            hendrerit sit amet fringilla sit amet, vestibulum id ante. Phasellus non erat vel velit pulvinar tempus id et lorem.
+        </p>
+        <img src="afbeeldingen/tandarts1 pexels.jpg" title="tandarts aan het werk" alt="tandarts aan het werk" width="300">
+        <img src="afbeeldingen/tandarts2 pexels.jpg" title="tandarts materiaal" alt="tandarts materiaal" width="300">
+        <img src="afbeeldingen/tandarts3 pexels.jpg" title="tandarts logo zaak" alt="tandarts logo zaak" width="300">
+        
+        
+        
+        <form method="post" action="https://formspree.io/f/xzzgvlzy">
+            <fieldset>
+                <legend>Persoonlijke gegevens</legend>
+                <table>
+                    <tr>
+                        <td><label for="voornaam">Voornaam:</label></td>
+                        <td><input id="voornaam" type="text" name="voornaam" placeholder="voornaam"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="achternaam">Achternaam:</label></td>
+                        <td><input id="achternaam" type="text" name="achternaam" placeholder="achternaam"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="adres">Adres:</label></td>
+                        <td><input type="text" id="adres" name="adres" placeholder="adres"></td>
+                    </tr>
+                </table>
+                
+                
+            </fieldset>
+            <fieldset>
+                <legend>Beschrijving klachten</legend>
+                <table>
+                    <tr>
+                        <td><label for="klachtenlijst">Selecteer uw klachten:</label></td>
+                        <td>
+                            <input type="checkbox" name="klachtenlijst" value="Tandpijn">Tandpijn
+                            <input type="checkbox" name="klachtenlijst" value="Controle">Jaarlijkse controle
+                            <input type="checkbox" name="klachtenlijst" value="Gaatjes">Gaatjes
+                            <input type="checkbox" name="klachtenlijst" value="Abces">Abces
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label for="foto">Eventuele foto:</label></td>
+                        <td><input type="file" name="foto" accept=".jpg, .jpeg, .png, .gif"></td>
+                    </tr>
+                    
+                </table>
+            </fieldset>
+            <fieldset>
+                <legend>Toelichting klachten</legend>
+                <table>
+                    <tr>
+                        <td><label for="toelichting">Geef meer toelichting over de klacht:</label></td>
+                        <td><textarea name="toelichting" maxlength="1500"> </textarea></td>
+                    </tr>
+                    <tr>
+                        <td><label for="datumafspraak">Datum voor afspraak:</label></td>
+                        <td><input type="date" name="datumafspraak"></td>
+                    </tr>
+                </table>
+                   
+            </fieldset>
+            <button type="submit" name="verzend"><strong>Verzend informatie</strong></button>
+            
+        </form>
+    </body>
+</html>
