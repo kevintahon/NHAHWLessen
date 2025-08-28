@@ -1,0 +1,112 @@
+body {
+    padding: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+    background-color:lightslategrey;
+}
+
+ul a {
+    color: white;
+    text-decoration: none;
+}
+
+li {
+    display: inline-block;
+    height: 22px;
+    width: 100px;
+    padding:12px;
+    text-align: center;
+    color:white;
+    border: 2px solid darkgray;
+    background-color: black;
+}
+
+li:hover {
+    background-color: darkgray;
+    border: 2px solid darkgray;
+    font-weight: bold;
+}
+
+li.active {
+    background-color: darkgray;
+    border: 2px solid darkgray;
+}
+
+img {
+    float: left;
+    width: 5%;
+    margin-right: 10px;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    width: 100%;
+    margin-bottom: 10px;
+    position: fixed;
+    bottom: 0;
+}
+
+header {
+    background-color:floralwhite;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.content {
+    background-color: white;
+    padding-top: 100px;
+    padding-left: 10px;
+    padding-bottom: 8px;
+    width: 80%;
+    margin: 0 auto;
+    border-radius: 10px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 800px;
+}
+
+td, th {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.yearcell {
+    text-align: center;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2; 
+}
+
+tr:nth-child(odd) {
+  background-color: #ffffff; 
+}
+
+input[type="text"], input[type="email"], textarea, button {
+    display: block;
+    margin: 20px 0px;
+    width: 500px;
+    box-sizing: border-box;
+    border-radius: 3px;
+    box-shadow: inset 1px 1px 1px lightgray;
+    padding: 10px;
+}
+
+textarea {
+    height: 300px;
+}
+
+button {
+    background-color: black;
+    color: white;
+}
+
+button:active {
+    background-color: lightgray;
+    color: white;
+}
